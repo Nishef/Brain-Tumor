@@ -21,21 +21,21 @@ The project focuses on analyzing tumor data using machine learning techniques, i
 In this project, we aim to analyze tumor data and predict the presence or absence of a tumor using machine learning algorithms. We employ logistic regression and random forest classification techniques to train models on the provided dataset. The project involves several steps, including data exploration, preprocessing, model training, and evaluation.
 
 ## DATA OVERVIEW
-•	Image: Image name
-•	Class: value Tumor = 1 Non tumor =0
-•	Mean: First order feature mean
-•	Variance: First order feature variance
-•	Standard Deviation: First order feature std deviation
-•	Entropy: Second order feature entropy
-•	Skewness: First order feature skewness
-•	Kurtosis: First order feature kurtosis
-•	Contrast: Second order feature contrast
-•	Energy: Second order feature energy
-•	ASM: Second order feature ASM
-•	Homogeneity: Second order feature homogeneity
-•	Dissimilarity: Second order feature dissimilarity
-•	Correlation: Second order feature correlation
-•	Coarseness: Second order feature coarness
+-	Image: Image name
+-	Class: value Tumor = 1 Non tumor =0
+-	Mean: First order feature mean
+-	Variance: First order feature variance
+-	Standard Deviation: First order feature std deviation
+-	Entropy: Second order feature entropy
+-	Skewness: First order feature skewness
+-	Kurtosis: First order feature kurtosis
+-	Contrast: Second order feature contrast
+-	Energy: Second order feature energy
+-	ASM: Second order feature ASM
+-	Homogeneity: Second order feature homogeneity
+-	Dissimilarity: Second order feature dissimilarity
+-	Correlation: Second order feature correlation
+-	Coarseness: Second order feature coarness
 
 **Image column defines image name and Class column defines either the image has tumor or not (1 = Tumor, 0 = non-Tumor)**
 
