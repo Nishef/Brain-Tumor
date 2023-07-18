@@ -37,6 +37,8 @@ In this project, we aim to analyze tumor data and predict the presence or absenc
 •	Correlation: Second order feature correlation
 •	Coarseness: Second order feature coarness
 
+**Image column defines image name and Class column defines either the image has tumor or not (1 = Tumor, 0 = non-Tumor)**
+
 ## Installation
 
 To run the code locally, please ensure you have the following dependencies installed:
