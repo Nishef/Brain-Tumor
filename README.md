@@ -48,6 +48,42 @@ To use the code, follow these steps:
 
 The tumor data is stored in a CSV file named `tumor.csv`. It contains information about different features of tumors and their corresponding classes (presence or absence of a tumor). The data is loaded into a pandas DataFrame and displayed using the `pandasgui` library, which provides an interactive interface for exploring the dataset.
 
+This is a brain tumor feature dataset including five first-order features and eight texture features with the target level (in the column Class).
+•	First Order Features
+o	Mean
+o	Variance
+o	Standard Deviation
+o	Skewness
+o	Kurtosis
+•	Second Order Features
+o	Contrast
+o	Energy
+o	ASM (Angular second moment)
+o	Entropy
+o	Homogeneity
+o	Dissimilarity
+o	Correlation
+o	Coarseness
+Image column defines image name and Class column defines either the image has tumor or not (1 = Tumor, 0 = non-Tumor)
+
+DATA OVERVIEW:
+•	Image: Image name
+•	Class: value Tumor = 1 Non tumor =0
+•	Mean: First order feature mean
+•	Variance: First order feature variance
+•	Standard Deviation: First order feature std deviation
+•	Entropy: Second order feature entropy
+•	Skewness: First order feature skewness
+•	Kurtosis: First order feature kurtosis
+•	Contrast: Second order feature contrast
+•	Energy: Second order feature energy
+•	ASM: Second order feature ASM
+•	Homogeneity: Second order feature homogeneity
+•	Dissimilarity: Second order feature dissimilarity
+•	Correlation: Second order feature correlation
+•	Coarseness: Second order feature coarness
+
+
 ## Exploratory Data Analysis
 
 The code begins with an exploratory data analysis section, where various aspects of the dataset are examined. The following operations are performed:
