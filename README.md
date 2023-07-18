@@ -21,6 +21,8 @@ The project focuses on analyzing tumor data using machine learning techniques, i
 In this project, we aim to analyze tumor data and predict the presence or absence of a tumor using machine learning algorithms. We employ logistic regression and random forest classification techniques to train models on the provided dataset. The project involves several steps, including data exploration, preprocessing, model training, and evaluation.
 
 ## DATA OVERVIEW
+This is a brain tumor feature dataset including five first-order features and eight texture features with the target level (in the column Class).
+
 -	Image: Image name
 -	Class: value Tumor = 1 Non tumor =0
 -	Mean: First order feature mean
