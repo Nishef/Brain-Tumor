@@ -5,7 +5,7 @@ The project focuses on analyzing tumor data using machine learning techniques, i
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [DATA OVERVIEW](#data-overview)
+- [Data Overview](#data-overview)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Data](#data)
